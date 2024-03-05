@@ -66,4 +66,18 @@ update ALUNOS set uf = 'SP' where codigo = 2
 
 select * from ALUNOS
 
---
+-- Altere o registro do Adamastor para que o UF dele seja BH
+
+update ALUNOS set uf = 'BH' where codigo = 3
+
+-- selecione todos os registros
+
+select * from ALUNOS 
+
+-- Apague apenas o registro de Clark Kent
+
+delete from alunos where codigo = 3
+
+-- selecione todos os registros da tabela de alunos
+
+select * from alunos
